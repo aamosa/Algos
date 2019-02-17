@@ -1,9 +1,9 @@
 /**
  * Reorder a singly linked list.
  * Example #1:
- *		Given 1->2->3->4, reorder it to 1->4->2->3.
+ *  Given 1->2->3->4, reorder it to 1->4->2->3.
  * Example #2:
- *		Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
+ *  Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
  *	
  * Solution using two runners / pointers technique (slow runner and fast runner).
  * 3 ms solution beat 98.6% for java solution on leetcode.com
