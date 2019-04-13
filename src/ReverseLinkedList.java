@@ -2,7 +2,7 @@
     * Reverse a singly linked list.
     * Example #1:
     *    Input:   1->2->3->4->5->NULL
-    *    Output: 5->4->3->2->1->NULL
+    *    Output:  5->4->3->2->1->NULL
     * Note: A linked list can be reversed either iteratively or recursively.
     */
 
