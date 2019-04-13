@@ -43,7 +43,7 @@
         return s;
     }
   
-    // static utility methods ----------------------------------------------------------
+    // static helper methods ----------------------------------------------------------
     
     // This helper method takes a given array and returns a singly linked list.
     public static ListNode ArrayToLinkedList(int[] nums) {
