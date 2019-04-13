@@ -1,6 +1,5 @@
 /**
  * Basic implementation of a singly linked list.
- *
  */
  public class ListNode {
     int val;
@@ -33,7 +32,6 @@
         }
     }
 
-
     @Override
     public String toString() {
         String s = "";
@@ -44,10 +42,10 @@
         }
         return s;
     }
-
-    /**
-     * This helper method takes a given array and returns a singly linked list.
-     */
+  
+    // static utility methods ----------------------------------------------------------
+    
+    // This helper method takes a given array and returns a singly linked list.
     public static ListNode ArrayToLinkedList(int[] nums) {
         ListNode node = new ListNode();
         ListNode t = node;
@@ -57,10 +55,8 @@
         }
         return node.next;
     }
-
-    /**
-     * This helper method prints the nodes of a linked list each per separate line.
-     */
+    
+    // This helper method prints the nodes of a linked list each per separate line.
     public static void printLinkedList(ListNode head) {
         if (head == null) return;
         ListNode cur = head.next;
